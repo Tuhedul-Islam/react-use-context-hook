@@ -36,8 +36,19 @@ export const UserContext = React.createContext();
 
 - Used in Child Component
 .........................
-const data = useContext(UserContext)
-const {allUsers, text} = data
-console.log(allUsers, text)
+const ComponentD = () => {
+
+    const data = useContext(UserContext)
+    const {allUsers, text} = data
+    console.log(allUsers, text)
+
+    return (
+        ####
+    )
+}
+
+
+//// LEarning All Hook====================================
+useState(), useEffect(), UseRef(), useReducer(), useContext()
 
 ```
