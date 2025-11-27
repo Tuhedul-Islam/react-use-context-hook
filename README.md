@@ -29,7 +29,7 @@ export const UserContext = React.createContext();
 - Wrap The Child Component
 <UserContext.Provider value={{allUsers, text}}>
     <ComponentB />
-  </UserContext.Provider>
+</UserContext.Provider>
 
 
 
