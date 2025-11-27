@@ -51,4 +51,10 @@ const ComponentD = () => {
 //// LEarning All Hook====================================
 useState(), useEffect(), UseRef(), useReducer(), useContext()
 
+
+///Another Example
+Import Syntax	                    Works With	        Can Rename?	    Must Match Name?
+import UserContext from ...	        default export	    ✔ Yes	        ❌ No
+import { UserContext } from ...	    named export	    ✔ With alias	✔ Yes
+
 ```
