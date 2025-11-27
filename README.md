@@ -22,6 +22,8 @@ export const UserContext = React.createContext();
 //..................
 //Provider, Consumer
 
+
+- Wrap The Child Component
 //<UserContext.Provider value={{allUsers, text}}>
 //     <ComponentB />
 //   </UserContext.Provider>
