@@ -5,6 +5,9 @@ This template provides a minimal setup to get React working in Vite with HMR and
 # Getting Started [Learning]
 ```jsx
 
+- useContext is used for passing data from parent to child without prop drilling
+................................................................................
+
 - Procedure
 1. Create context
 2. wrap the child component with context provider
